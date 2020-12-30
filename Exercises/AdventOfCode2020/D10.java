@@ -23,6 +23,7 @@ public class D10 {
             System.out.println(ans);
 
             //todo: find the number of arrangements of the adapters
+            // Returns the correct number for ex, but does not return anything for puzzleInput
             BigInteger arrangements = countArrangements(adapters, -1);
             System.out.println(arrangements.toString());
 
